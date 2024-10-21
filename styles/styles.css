@@ -372,14 +372,6 @@ body {
   margin-top: 9px;
 }
 
-.advantages-item-light {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-item-medium {
-  background-color: rgba(131, 179, 211, 0.2);
-}
-
 .advantages-image {
   display: block;
   -o-object-fit: contain;
@@ -1808,6 +1800,18 @@ body {
 
 .range-toggle:hover {
   outline: 2px solid #83b3d3;
+}
+
+.advantages-list li:nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-list li:nth-child(3n) {
+background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-user-list li:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .product-card-link:focus-visible,
